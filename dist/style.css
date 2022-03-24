@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+body {
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  background-image: url("https://images.unsplash.com/photo-1605098781635-dc111bec07d1?crop=entropy&cs=srgb&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTY0Nzg4ODEyMA&ixlib=rb-1.2.1&q=85");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+span {
+  color: #b71c1c;
+}
+form {
+  background-color: #fff;
+  opacity: 0.8;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 30px 20px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+  color: black;
+}
+.form-control {
+  text-align: left;
+  margin: auto;
+}
+#name-label,
+#email-label,
+#number-label {
+  margin: 10px;
+  margin-bottom: 25px;
+}
+label {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+select,
+input,
+textarea {
+  border: 1px solid #777;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 0 10px;
+  display: inline-block;
+  width: 95%;
+}
+input[type="radio"],
+input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+}
+#submit {
+  background-color: #4e342e;
+  color: white;
+  opacity: 1;
+  font-size: 21px;
+}
+#submit:hover {
+  background-color: #d7ccc8;
+  color: #4e342e;
+  font-wight: bold;
+}
